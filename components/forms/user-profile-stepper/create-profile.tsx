@@ -258,7 +258,7 @@ export const CreateProfileOne: React.FC<ProfileFormType> = ({
                       <FormControl>
                         <Input
                           disabled={loading}
-                          placeholder="John"
+                          placeholder="BETA"
                           {...field}
                         />
                       </FormControl>
@@ -275,7 +275,7 @@ export const CreateProfileOne: React.FC<ProfileFormType> = ({
                       <FormControl>
                         <Input
                           disabled={loading}
-                          placeholder="Doe"
+                          placeholder="User"
                           {...field}
                         />
                       </FormControl>
@@ -292,7 +292,7 @@ export const CreateProfileOne: React.FC<ProfileFormType> = ({
                       <FormControl>
                         <Input
                           disabled={loading}
-                          placeholder="johndoe@gmail.com"
+                          placeholder="betauser"
                           {...field}
                         />
                       </FormControl>

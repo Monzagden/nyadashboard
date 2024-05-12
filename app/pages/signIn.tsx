@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import SignInForm from "@/components/forms/signInForm";
-//import SignUpForm from "@/components/forms/signUpForm";
+import SignUpForm from "@/components/forms/signUpForm";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -73,4 +73,6 @@ export default function AuthenticationPage() {
       </div>
     </div>
   );
-};
+}
+
+

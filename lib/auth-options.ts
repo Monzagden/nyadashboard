@@ -1,4 +1,4 @@
-import { NextAuthOptions } from "next-auth";
+/*import { NextAuthOptions } from "next-auth";
 import GithubProvider from "next-auth/providers/github";
 import CredentialProvider from "next-auth/providers/credentials";
 
@@ -17,7 +17,7 @@ export const authOptions: NextAuthOptions = {
         },
       },
       async authorize(credentials, req) {
-        const user = { id: "1", name: "John", email: credentials?.email };
+        const user = { id: "1", name: "BETA", email: credentials?.email };
         if (user) {
           // Any object returned will be saved in `user` property of the JWT
           return user;
@@ -34,3 +34,4 @@ export const authOptions: NextAuthOptions = {
     signIn: "/", //sigin page
   },
 };
+*/
